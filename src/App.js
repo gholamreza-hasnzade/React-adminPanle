@@ -1,12 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import "./App.css";
 
-const App = props => {
+const App = () => {
   return (
-    <div>App</div>
+    <h1 className='underline text-3xl'>App</h1>
   )
 }
 
-App.propTypes = {}
 
 export default App
